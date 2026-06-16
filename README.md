@@ -8,7 +8,9 @@ Homebrew tap for [YutaSugimura](https://github.com/YutaSugimura)'s tools.
 Google Maps Platform (Geocoding, Places API, Routes API) with CoreLocation GPS.
 
 ```sh
-brew install YutaSugimura/tap/gmaps
+brew tap YutaSugimura/tap
+brew trust YutaSugimura/tap        # Homebrew 5.x requires trusting third-party taps once
+brew install --cask gmaps
 gmaps --version
 ```
 
