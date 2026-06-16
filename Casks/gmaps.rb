@@ -1,8 +1,8 @@
 cask "gmaps" do
   arch arm: "arm64"
 
-  version "0.1.1"
-  sha256 "3f301e44370969cb268279af6b8a559debfc2ffae66a257aab0f2dd15eb5805c"
+  version "0.1.2"
+  sha256 "c42020628cab55e35c184eede4d8b73214edb1dce2f148581229d2181d8021dd"
 
   url "https://github.com/YutaSugimura/gmaps-cli/releases/download/v#{version}/gmaps-#{version}-macos-#{arch}.app.zip"
   name "gmaps"
