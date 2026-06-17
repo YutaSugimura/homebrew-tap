@@ -35,9 +35,12 @@ gmaps init
 It walks you through:
 
 - **API key** — your Google Maps Platform key (masked input). Get one at the
-  [Cloud Console](https://console.cloud.google.com/google/maps-apis/credentials)
-  and enable **Geocoding API**, **Places API (New)**, and **Routes API**. The
-  wizard verifies the key with a live request before saving.
+  [Cloud Console](https://console.cloud.google.com/google/maps-apis/credentials),
+  then **enable all three** of these APIs for the key:
+  **Geocoding API**, **Places API (New)**, and **Routes API**.
+  Cloud Console also lists older variants (Places API, Directions API) — pick
+  the **new** ones. The wizard verifies the key with a live request before
+  saving, so a missing API surfaces immediately.
 - **Default location source** — a fixed place (e.g. `home`), GPS via
   CoreLocation (`gmaps -H` / `--here`), or always-manual (`--location`).
 - **Language / region** — e.g. `ja` / `JP`.
